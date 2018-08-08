@@ -20,7 +20,7 @@ $ yarn add case-keys
 オブジェクトの中にあるキャメルケースのキーをスネークケースのキーに変換します
 
 ```js
-import { snakecaseKeys } from 'case-keys';
+import { snakecaseKeys } from 'famous-case-keys';
 
 a = {
   helloWorld: {
@@ -80,7 +80,7 @@ return
 オブジェクトの中にあるスネークケースのキーをキャメルケースのキーに変換します
 
 ```js
-import { camelcaseKeys } from 'case-keys';
+import { camelcaseKeys } from 'famous-case-keys';
 
 a = {
   hello_world: {
@@ -141,7 +141,7 @@ return
 違った場合は **false** を返します
 
 ```js
-import { isPlainObject } from 'case-keys';
+import { isPlainObject } from 'famous-case-keys';
 
 function Dog(name, cry) {
   this.name = name;
