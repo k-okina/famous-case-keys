@@ -1,5 +1,7 @@
 import camelcaseKeys from 'camelcase-keys';
-export camelcaseKeys;
+export {
+  camelcaseKeys
+};
 
 export function isPlainObject(object) {
   return Object.prototype.toString.call({}) === Object.prototype.toString.call(object);
