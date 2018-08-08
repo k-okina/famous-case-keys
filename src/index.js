@@ -19,7 +19,7 @@ export function snakecaseKeys(object, { deep = false, onlyPlainObject = true } =
     }
     return Object.assign({}, base, { [snakeKey]: object[camelKey] });
   };
-  if (onlyPlainObject && isPlainObject(object)) {
+  if (onlyPlainObject && !isPlainObject(object)) {
     return object;
   }
   return Object.keys(object).reduce(reducer, {});
