@@ -1,0 +1,23 @@
+{
+  "name": "famous-case-keys",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "description": "famous case keys.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-okina/famous-case-keys.git"
+  },
+  "author": "Kahiro Okina <okinakahiro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k-okina/famous-case-keys/issues"
+  },
+  "keywords": [
+    "snakecase",
+    "camelcase",
+    "famous-case-keys"
+  ],
+  "peerDependencies": {
+    "camelcase-keys": "*"
+  }
+}
